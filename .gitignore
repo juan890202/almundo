@@ -1,0 +1,32 @@
+$ cat .gitignore
+
+# Java compiled source #
+########################
+build/
+classes/
+
+# Maven compiled source #
+#########################
+target/
+
+# Eclipse IDE generated files #
+###############################
+*.project
+.settings/
+*.classpath
+.metadata/
+
+# IntelliJ IDEA generated files #
+###############################
+.idea/
+*.iml
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
